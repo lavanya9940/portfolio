@@ -1,10 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Maitree:wght@700&family=Nunito:wght@700&display=swap');
 
+:root {
+    --bg-lite-blue: #F0F6FF;
+    --bg-blue: rgba(188, 212, 253, 0.6);
+    --box-shadow: 0px 4px 20px rgba(94, 94, 94, 0.25);
+    --text-blue: #0D51BE;
+    --text-grey: #414141;
+}
+
 * {
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #F0F6FF;
+    color: var(--text-grey);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .font-maitree {

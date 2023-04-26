@@ -1,39 +1,37 @@
-import React from 'react';
-
+import React, { useState } from 'react';
+import "./NavbarStyles.css"
 function Navbar() {
+    const [hmClicked, setHmClicked] = useState(false)
+    function handleClick(props) {
+        setHmClicked(!hmClicked)
+    }
     return (
-        <nav className="container mx-auto flex" id="nav">
-            <div className="flex" id="nav-head">
-                <div className="nav-brand font-maitree">
-                    <a className="text-md md-text-lg lg-text-xl text-dark" href="#">
-                        Prem.
+        <nav className="navbar" id="nav">
+            <div className="navbrand">
+                <a href="/" className='font-maitree'>
+                    Prem.
+                </a>
+            </div>
+            <div className="menu-icon" onClick={handleClick}>
+                <i>{hmClicked ? "X" : "E"}</i>
+            </div>
+            <ul className="nav-menu">
+                <li className="nav-link">
+                    <a className="" aria-current="page" href="#about">
+                        About
                     </a>
-                </div>
-                <div className="toggle-btn">
-                    <button className="btn text-lg">
-                        <i className="bi bi-filter-right" />
-                    </button>
-                </div>
-            </div>
-            <div className="collapse flex" id="navbarSupportedContent">
-                <ul className="flex md-text-md lg-text-md">
-                    <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#about">
-                            About
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#resume">
-                            Resume
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#work">
-                            Work
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                </li>
+                <li className="nav-link">
+                    <a className="" href="#resume">
+                        Resume
+                    </a>
+                </li>
+                <li className="nav-link">
+                    <a className="" href="#work">
+                        Work
+                    </a>
+                </li>
+            </ul>
         </nav>
     );
 }
