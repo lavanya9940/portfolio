@@ -15,7 +15,7 @@ function Navbar() {
             <div className="menu-icon" onClick={handleClick}>
                 <i>{hmClicked ? "X" : "E"}</i>
             </div>
-            <ul className="nav-menu">
+            <ul className={hmClicked ? "nav-menu active" : "nav-menu"}>
                 <li className="nav-link">
                     <a className="" aria-current="page" href="#about">
                         About
