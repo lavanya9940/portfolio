@@ -2,14 +2,14 @@ import "./about.css"
 function About(props) {
     return (
         <>
-            <div className="about">
+            <div className="about container">
                 <div className="pf-img">
                     {/* <div className="ellipse mx-auto" /> */}
-                    <img className="hero" src={process.env.PUBLIC_URL + "img/prof-image.png"} alt="Hero" srcSet />
+                    {/* <img className="hero" src={process.env.PUBLIC_URL + "img/prof-image.png"} alt="Hero" srcSet /> */}
                 </div>
                 <div className="about-info">
-                    <div className="text-md md-text-lg font-maitree">
-                        Hi, I’m <span className="text-dark mx-auto d-block lg-d-inline">Prem Kumar !</span>
+                    <div className="font-maitree">
+                        Hi, I’m <span className="text-blue font-maitree">Prem Kumar !</span>
                     </div>
                     <p>
                         An experienced Full Stack Developer with a focus on building scalable web applications using
