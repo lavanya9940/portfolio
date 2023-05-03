@@ -1,5 +1,7 @@
 header {
     background-color: var(--bg-blue);
+    box-shadow: var(--box-shadow);
+    margin-bottom: 20px;
 }
 
 .navbar {
@@ -17,7 +19,7 @@ header {
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 10px;
+    gap: 50px;
     align-items: center;
     justify-content: end;
 }

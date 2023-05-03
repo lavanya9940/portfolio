@@ -16,18 +16,18 @@ function Navbar() {
                 <i>{hmClicked ? "X" : "E"}</i>
             </div>
             <ul className={hmClicked ? "nav-menu active" : "nav-menu"}>
-                <li className="nav-link">
-                    <a className="" aria-current="page" href="#about">
+                <li className="nav-link" >
+                    <a className="" aria-current="page" href="#about" onClick={handleClick}>
                         About
                     </a>
                 </li>
-                <li className="nav-link">
-                    <a className="" href="#resume">
+                <li className="nav-link" >
+                    <a className="" href="#resume" onClick={handleClick}>
                         Resume
                     </a>
                 </li>
-                <li className="nav-link">
-                    <a className="" href="#work">
+                <li className="nav-link" >
+                    <a className="" href="#work" onClick={handleClick}>
                         Work
                     </a>
                 </li>

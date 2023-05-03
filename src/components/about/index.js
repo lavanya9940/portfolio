@@ -2,12 +2,12 @@ import "./about.css"
 function About(props) {
     return (
         <>
-            <div className="about container">
-                <div className="pf-img">
+            <div className="about container" id="about">
+                <div className="pf-img column">
                     {/* <div className="ellipse mx-auto" /> */}
-                    {/* <img className="hero" src={process.env.PUBLIC_URL + "img/prof-image.png"} alt="Hero" srcSet /> */}
+                    <img className="hero" src={process.env.PUBLIC_URL + "img/prof-image.png"} alt="Hero" />
                 </div>
-                <div className="about-info">
+                <div className="about-info column">
                     <div className="font-maitree">
                         Hi, I’m <span className="text-blue font-maitree">Prem Kumar !</span>
                     </div>
@@ -29,7 +29,7 @@ function About(props) {
                     <div className="mail-box flex">
                         <p>premkumarnunna@gmail.com</p>
                         <a className="btn mail-button flex" href="mailto:premkumarnunna@gmail.com?body=%0AThis%20mail%20has%20been%20send%20with%20reference%20to%20the%20profile%20seen%20at%20https%3A%2F%2Fpremkumar0.github.io">
-                            <img src="./public/img/mail-to.svg" alt="" />
+                            <img src={process.env.PUBLIC_URL + "img/mail-to.svg"} alt="" />
                         </a>
                     </div>
                     <div className="social-media">
