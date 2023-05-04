@@ -1,0 +1,8 @@
+footer {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.footer-text a:hover {
+    color: var(--text-blue);
+}
