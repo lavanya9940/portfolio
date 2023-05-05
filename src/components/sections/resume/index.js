@@ -11,18 +11,16 @@ function Resume(props) {
                     that exceed client expectations.
                 </p>
             </div>
-            <div className="grid cols-1 lg-cols-2">
+            <div className="resume-body">
                 <div id="sumary">
                     <h3 className="resume-title">Sumary</h3>
-                    <div className="resume-item pb-0">
+                    <div className="resume-item">
                         <h4>Brandon Johnson</h4>
                         <p>
-                            <em>
-                                Innovative and deadline-driven Graphic Designer with 3+ years of
-                                experience designing and developing user-centered digital/print
-                                marketing material from initial concept to final, polished
-                                deliverable.
-                            </em>
+                            Innovative and deadline-driven Graphic Designer with 3+ years of
+                            experience designing and developing user-centered digital/print
+                            marketing material from initial concept to final, polished
+                            deliverable.
                         </p>
                         <ul>
                             <li>Portland par 127,Orlando, FL</li>

@@ -38,7 +38,7 @@ ul {
 }
 
 .container {
-    padding: 0 5px;
+    padding: 0 8px;
     overflow: hidden;
 }
 
@@ -64,5 +64,6 @@ ul {
         max-width: 760px;
         margin-left: auto;
         margin-right: auto;
+        padding: 0 10px;
     }
 }
