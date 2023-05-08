@@ -14,6 +14,10 @@
     font-size: 2.2rem;
 }
 
+.about-info div span {
+    display: inline-block;
+}
+
 .about-info>p {
     margin-top: 1.5rem;
 }

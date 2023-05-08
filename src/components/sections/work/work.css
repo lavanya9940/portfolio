@@ -1,0 +1,24 @@
+.work-body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+    margin: 20px;
+}
+
+.work-body .card {
+    grid-column: span 4;
+    box-shadow: var(--box-shadow);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.work-body .card img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .work-body .card {
+        grid-column: 2 / span 10;
+    }
+}
