@@ -15,7 +15,7 @@ function Resume(props) {
                 <div id="sumary">
                     <h3 className="resume-title">Sumary</h3>
                     <div className="resume-item">
-                        <h4>Brandon Johnson</h4>
+                        <h4>Premkumar Nunna</h4>
                         <p>
                             Innovative and deadline-driven Graphic Designer with 3+ years of
                             experience designing and developing user-centered digital/print
@@ -23,19 +23,19 @@ function Resume(props) {
                             deliverable.
                         </p>
                         <ul>
-                            <li>Portland par 127,Orlando, FL</li>
-                            <li>(123) 456-7891</li>
-                            <li>alice.barkley@example.com</li>
+                            <li>Visakhapatnam-530017, India</li>
+                            <li>(+91) 9553261501</li>
+                            <li><a href="mailto:premkumarnunna@gmail.com">premkumarnunna@gmail.com</a></li>
                         </ul>
                     </div>
                 </div>
                 <div id="education">
                     <h3 className="resume-title">Education</h3>
                     <div className="resume-item">
-                        <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                        <h5>2015 - 2016</h5>
+                        <h4>Master of Computer Science &amp; Data Analytics</h4>
+                        <h5>2019 - 2021</h5>
                         <p>
-                            <em>Rochester Institute of Technology, Rochester, NY</em>
+                            <em>Central University of Rajasthan, Ajmer</em>
                         </p>
                         <p>
                             Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto
@@ -44,10 +44,10 @@ function Resume(props) {
                         </p>
                     </div>
                     <div className="resume-item">
-                        <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                        <h5>2010 - 2014</h5>
+                        <h4>Bachelor of Science in Computer Science</h4>
+                        <h5>2016 - 2019</h5>
                         <p>
-                            <em>Rochester Institute of Technology, Rochester, NY</em>
+                            <em>Silver Jubilee Govt Degree College, Kurnool</em>
                         </p>
                         <p>
                             Quia nobis sequi est occaecati aut. Repudiandae et iusto quae
@@ -60,10 +60,10 @@ function Resume(props) {
                 <div id="experience">
                     <h3 className="resume-title">Professional Experience</h3>
                     <div className="resume-item">
-                        <h4>Senior graphic design specialist</h4>
-                        <h5>2019 - Present</h5>
+                        <h4>Senior Software Developement Engineer</h4>
+                        <h5>2022 - Present</h5>
                         <p>
-                            <em>Experion, New York, NY </em>
+                            <em>Cloudearl Sol Pvt Ltd, Visakhapatnam, India </em>
                         </p>
                         <ul>
                             <li>
@@ -85,10 +85,10 @@ function Resume(props) {
                         </ul>
                     </div>
                     <div className="resume-item">
-                        <h4>Graphic design specialist</h4>
-                        <h5>2017 - 2018</h5>
+                        <h4>Software Developer</h4>
+                        <h5>2021 - 2022</h5>
                         <p>
-                            <em>Stepping Stone Advertising, New York, NY</em>
+                            <em>Cloudearl Sol Pvt Ltd, Visakhapatnam, India </em>
                         </p>
                         <ul>
                             <li>
