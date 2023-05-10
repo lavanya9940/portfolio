@@ -20,9 +20,11 @@ git clone "$TARGET_REPO" "$TEMP_DIR" --branch "$TARGET_BRANCH" --single-branch -
 # Copy the build folder to the temporary directory
 rsync -a --delete --exclude='.*/' "$SOURCE_FOLDER/" "$TEMP_DIR/"
 
-echo "success updating files"
-# Commit and push changes to the target repo
 cd "$TEMP_DIR"
+git config user.name "premkumar0"
+git config user.email "premkumarnunna@gmail.com"
+
+# Commit and push changes to the target repo
 git add .
 git commit -m "$COMMIT_MESSAGE"
 git push origin "$TARGET_BRANCH"

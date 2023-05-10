@@ -1,24 +1,28 @@
 .resume-body {
+    display: -webkit-box;
+    /* Not needed if autoprefixing */
+    display: -ms-flexbox;
+    /* Not needed if autoprefixing */
+    display: flex;
+    margin-left: -30px;
+    /* gutter size offset */
+    width: auto;
     padding-left: 10px;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 30px;
 }
 
-.resume-body div {
-    grid-column: span 6;
+.resume-body-item {
+    padding-left: 30px;
+    /* gutter size */
+    background-clip: padding-box;
 }
 
-@media screen and (max-width: 767px) {
-    .resume-body div {
-        grid-column: span 12;
-    }
+.resume-body-item>div {
+    margin-bottom: 30px;
 }
 
 .resume-body .resume-title {
     font-size: 2rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .resume-body .resume-item {
@@ -31,17 +35,14 @@
 .resume-body .resume-item h4 {
     line-height: 18px;
     font-size: 18px;
-    text-transform: uppercase;
     color: var(--text-blue);
     margin-bottom: 10px;
 }
 
 .resume-body .resume-item h5 {
     font-size: 16px;
-    background: var(--bg-lite-blue);
     padding: 5px 15px;
     display: inline-block;
-    font-weight: 600;
     margin-bottom: 10px;
 }
 

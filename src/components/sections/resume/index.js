@@ -1,5 +1,10 @@
+import Masonry from "react-masonry-css";
 import "./resume.css"
 function Resume(props) {
+    const breakpointColumnsObj = {
+        default: 2,
+        767: 1,
+    };
     return (<>
         <section id="resume" className="container">
             <div className="section-title">
@@ -11,7 +16,10 @@ function Resume(props) {
                     that exceed client expectations.
                 </p>
             </div>
-            <div className="resume-body">
+            <Masonry
+                breakpointCols={breakpointColumnsObj}
+                className="resume-body"
+                columnClassName="resume-body-item">
                 <div id="sumary">
                     <h3 className="resume-title">Sumary</h3>
                     <div className="resume-item">
@@ -110,8 +118,8 @@ function Resume(props) {
                         </ul>
                     </div>
                 </div>
-            </div>
-        </section>
+            </Masonry>
+        </section >
 
     </>);
 }
