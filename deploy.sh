@@ -3,7 +3,7 @@
 # Set your variables
 SOURCE_FOLDER="build"
 TARGET_REPO="https://github.com/premkumar0/premkumar0.github.io.git"
-TARGET_BRANCH="gh-pages" # Or any branch you want to use for the build folder
+TARGET_BRANCH="main" # Or any branch you want to use for the build folder
 COMMIT_MESSAGE="Update build folder"
 
 # Store the current branch and directory
