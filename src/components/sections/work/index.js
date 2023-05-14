@@ -4,7 +4,7 @@ function Work(props) {
         <>
             <section id="work" className="container">
                 <div className="section-title">
-                    <div className="text-blue font-maitree">Work</div>
+                    <div className="font-maitree">My <span className="text-blue font-maitree">Wrok</span></div>
                 </div>
                 <div className="work-body">
                     <a href="http://github.com" target="_blank" rel="noopener noreferrer">
@@ -35,7 +35,7 @@ function Work(props) {
                         </div>
                     </a>
                 </div>
-            </section>
+            </section >
         </>
     );
 }

@@ -38,3 +38,7 @@ section {
     background: var(--text-grey);
     bottom: 3px;
 }
+
+.section-title>p {
+    text-align: center;
+}

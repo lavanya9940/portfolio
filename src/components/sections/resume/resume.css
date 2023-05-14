@@ -1,3 +1,10 @@
+#resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .resume-body {
     display: -webkit-box;
     /* Not needed if autoprefixing */
