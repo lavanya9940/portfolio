@@ -2,7 +2,7 @@ import "./about.css"
 function About(props) {
     return (
         <>
-            <div className="about container" id="about">
+            <div className="about container" id="about" onClick={props.hmClicked ? props.handleClick : undefined}>
                 <div className="pf-img column">
                     {/* <div className="ellipse mx-auto" /> */}
                     {/* <img className="hero" src={process.env.PUBLIC_URL + "/img/prof-image.png"} alt="Hero" /> */}
@@ -43,10 +43,4 @@ function About(props) {
         </>
     );
 }
-
-
-
-
-
-
 export default About;

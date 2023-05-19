@@ -4,11 +4,11 @@ import Work from "./work";
 import Skills from "./skills";
 function Sections(props) {
     return (
-        <>
+        <div onClick={props.hmClicked ? props.handleClick : undefined}>
             <Skills />
             <Resume />
             <Work />
-        </>
+        </div>
     );
 }
 

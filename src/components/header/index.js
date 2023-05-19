@@ -5,7 +5,7 @@ function Header(props) {
     return (
         <>
             <header>
-                <Navbar />
+                <Navbar hmClicked={props.hmClicked} handleClick={props.handleClick} />
             </header>
         </>
     );
