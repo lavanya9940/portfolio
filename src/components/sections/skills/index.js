@@ -42,14 +42,18 @@ function Skills(props) {
                     <p>Here is my skills to represent my Expertise</p>
                 </div>
                 <div className="skills-body">
-                    <Skill skill="HTML" percentage="90" />
-                    <Skill skill="CSS" percentage="85" />
-                    <Skill skill="SASS" percentage="80" />
-                    <Skill skill="Java Script" percentage="80" />
-                    <Skill skill="React js" percentage="75" />
-                    <Skill skill="Node js" percentage="70" />
-                    <Skill skill="Express js" percentage="65" />
-                    <Skill skill="Mongo DB" percentage="60" />
+                    <Skill skill="Advanced Python (OOPS)" percentage="90" />
+                    <Skill skill="Django, React" percentage="85" />
+                    <Skill skill="HTML, CSS, Bootstrap" percentage="80" />
+                    <Skill skill="Javascript" percentage="80" />
+                    <Skill skill="PostegreSQL" percentage="60" />
+                    <Skill skill="MySQL" percentage="60" />
+                    <Skill skill="Git" percentage="90" />
+                    <Skill skill="Jenkins" percentage="75" />
+                    <Skill skill="Docker" percentage="90" />
+                    <Skill skill="Gitlab CI/CD" percentage="65" />
+                    <Skill skill="Cloud Deployment" percentage="80" />
+                    <Skill skill="AWS, GCP, Azure" percentage="70" />
                 </div>
             </section>
         </>
