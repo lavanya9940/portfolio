@@ -7,6 +7,8 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    text-align: center;
+    align-items: center;
 }
 
 
@@ -29,14 +31,21 @@
 .pf-img .hero {
     width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 100%;
     margin-left: auto;
     display: block;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.about-info .font-maitree {
+    margin-top: auto;
 }
 
 .about-info .mail-box {
     display: flex;
-    margin: 1rem 0;
+    margin-top: auto;
+    margin-bottom: 1rem;
     max-width: fit-content;
     padding: 0.5rem 1rem;
     background: #FFFFFF;
@@ -68,7 +77,24 @@
     margin: 0.5rem 1rem;
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .pf-img {
+        position: relative;
+        height: 650px;
+    }
+
+    .pf-img .hero-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 650px;
+        border-radius: 50%;
+        background-color: var(--bg-blue);
+        z-index: -1;
+
+    }
+}
 
 @media screen and (max-width: 767px) {
     .about-info {

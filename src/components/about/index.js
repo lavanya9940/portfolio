@@ -3,10 +3,6 @@ function About(props) {
     return (
         <>
             <div className="about container" id="about" onClick={props.hmClicked ? props.handleClick : undefined}>
-                <div className="pf-img column">
-                    {/* <div className="ellipse mx-auto" /> */}
-                    {/* <img className="hero" src={process.env.PUBLIC_URL + "/img/prof-image.png"} alt="Hero" /> */}
-                </div>
                 <div className="about-info column">
                     <div className="font-maitree">
                         Hi, I’m <span className="text-blue font-maitree">Prem Kumar !</span>
@@ -38,6 +34,10 @@ function About(props) {
                         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img className="social-icon" src={process.env.PUBLIC_URL + "/img/facebook.svg"} alt="" /></a>
                         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img className="social-icon" src={process.env.PUBLIC_URL + "/img/instagram.svg"} alt="" /></a>
                     </div>
+                </div>
+                <div className="pf-img column">
+                    <img className="hero" src={process.env.PUBLIC_URL + "/img/prof-image1.png"} alt="Hero" />
+                    <div className="hero-bg" />
                 </div>
             </div>
         </>
