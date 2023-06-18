@@ -34,8 +34,8 @@
     height: 100%;
     margin-left: auto;
     display: block;
-    border-radius: 50%;
-    z-index: 1;
+    /* border-radius: 50%; */
+    /* z-index: 1; */
 }
 
 .about-info .font-maitree {
@@ -80,20 +80,21 @@
 @media screen and (min-width: 768px) {
     .pf-img {
         position: relative;
-        height: 650px;
+        max-height: 600px;
     }
 
-    .pf-img .hero-bg {
+    /* .pf-img .hero-bg {
         position: absolute;
-        top: 0;
+        bottom: 0;
         left: 0;
         width: 100%;
-        height: 650px;
+        height: 500px;
+        width: 500px;
         border-radius: 50%;
         background-color: var(--bg-blue);
         z-index: -1;
 
-    }
+    } */
 }
 
 @media screen and (max-width: 767px) {
@@ -102,7 +103,22 @@
         align-items: center;
     }
 
+    .about-info .mail-box {
+        margin-top: 1rem;
+    }
+
     .pf-img {
         position: absolute;
+        z-index: -1;
+    }
+
+    .pf-img::after {
+        content: "";
+        background-color: rgba(255, 255, 255, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 }

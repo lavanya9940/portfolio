@@ -36,8 +36,10 @@ function About(props) {
                     </div>
                 </div>
                 <div className="pf-img column">
-                    <img className="hero" src={process.env.PUBLIC_URL + "/img/prof-image1.png"} alt="Hero" />
-                    <div className="hero-bg" />
+                    <img className="hero" src={process.env.PUBLIC_URL + "/img/image2.png"} alt="Hero" srcSet="" />
+
+                    {/* <div className="hero-bg" />
+                    <img className="hero" src={process.env.PUBLIC_URL + "/img/prof-image1.png"} alt="Hero" /> */}
                 </div>
             </div>
         </>
