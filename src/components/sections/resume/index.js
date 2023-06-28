@@ -46,7 +46,7 @@ function Resume(props) {
                             <p>
                                 <em>Central University of Rajasthan, Ajmer</em>
                             </p>
-                            <p>
+                            <ul>
                                 I successfully completed my Master's degree in Big Data Analytics, achieving a commendable CGPA of 7.22.
                                 Throughout my academic journey, I excelled in all the program's courses and consistently demonstrated my dedication
                                 and passion for the subject matter. In addition to my coursework, I actively participated in numerous workshops
@@ -55,7 +55,7 @@ function Resume(props) {
                                 and task-based assignments, all geared towards the advancement of AI and machine learning. Furthermore,
                                 I dedicated significant time to thoroughly studying and analyzing relevant research papers published in the
                                 AI domain, enabling me to stay updated with the latest advancements and contribute to the field of computer science.
-                            </p>
+                            </ul>
                         </div>
                         <div className="resume-item">
                             <h4>Bachelor of Science in Computer Science</h4>
@@ -63,27 +63,29 @@ function Resume(props) {
                             <p>
                                 <em>Silver Jubilee Govt Degree College, Kurnool</em>
                             </p>
-                            <p>
-                                delighted to announce that I have successfully graduated with a Bachelor's degree, achieving a commendable CGPA of 7.5.
-                                Throughout my academic journey, I not only excelled in my curricular activities but also actively participated in various
-                                extracurricular endeavors. One notable accomplishment was the successful development of a website for the inventory management
-                                of the Physical Education department. This website received high praise from the department's head, demonstrating my ability
-                                to apply my skills in a practical setting.
-                            </p>
-                            <p>
-                                In addition to my academic achievements, I actively participated in numerous college programs that significantly enriched
-                                my knowledge and understanding of various subjects. These programs provided me with valuable exposure to diverse topics
-                                and allowed me to enhance my overall skill set.
-                            </p>
-                            <p>
-                                Furthermore, I enthusiastically served as a volunteer in the National Cadet Corps (NCC), contributing my time and
-                                efforts to several locations. This experience not only helped me develop a strong sense of discipline and leadership but
-                                also fostered a deep sense of community engagement and service.
-                            </p>
-                            <p>
-                                Additionally, I had the honor of representing Rayalaseema University at the South Zone Inter-University competition,
-                                which further highlighted my dedication and commitment to my academic pursuits.
-                            </p>
+                            <ul>
+                                <li>
+                                    I have successfully graduated with a Bachelor's degree, achieving a commendable CGPA of 7.5.
+                                    Throughout my academic journey, I not only excelled in my curricular activities but also actively participated in various
+                                    extracurricular endeavors. One notable accomplishment was the successful development of a website for the inventory management
+                                    of the Physical Education department. This website received high praise from the department's head, demonstrating my ability
+                                    to apply my skills in a practical setting.
+                                </li>
+                                <li>
+                                    In addition to my academic achievements, I actively participated in numerous college programs that significantly enriched
+                                    my knowledge and understanding of various subjects. These programs provided me with valuable exposure to diverse topics
+                                    and allowed me to enhance my overall skill set.
+                                </li>
+                                <li>
+                                    Furthermore, I enthusiastically served as a volunteer in the National Cadet Corps (NCC), contributing my time and
+                                    efforts to several locations. This experience not only helped me develop a strong sense of discipline and leadership but
+                                    also fostered a deep sense of community engagement and service.
+                                </li>
+                                <li>
+                                    Additionally, I had the honor of representing Rayalaseema University at the South Zone Inter-University competition,
+                                    which further highlighted my dedication and commitment to my academic pursuits.
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div id="experience">
@@ -123,7 +125,6 @@ function Resume(props) {
                                     Mentored and coached junior developers, fostering a culture of collaboration and
                                     continuous improvement, while adhering to industry best practices and standards
                                 </li>
-
                             </ul>
                         </div>
                         <div className="resume-item">
@@ -169,6 +170,71 @@ function Resume(props) {
                                 <li>
                                     Continuously learned and explored new technologies and frameworks to enhance
                                     skills and contribute to the improvement of the development process.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="interest">
+                        <h3 className="resume-title">Interests </h3>
+                        <div className="resume-item">
+                            <h4>Professional Interests</h4>
+                            <ul>
+                                <li>
+                                    DevOps, Cloud Security.
+                                </li>
+                                <li>
+                                    Artificial  Intelligence  and  MachineLearning.
+                                </li>
+                                <li>
+                                    Web and Software Development.
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="resume-item">
+                            <h4>Personal Interests</h4>
+                            <ul>
+                                <li>
+                                    Skating.
+                                </li>
+                                <li>
+                                    Playing Outdoor Games (Badminton, Basket Ball).
+                                </li>
+                                <li>
+                                    Web surfing, Reading Books.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div></div>
+                    <div id="soft-skills">
+                        <h3 className="resume-title">Soft Skills </h3>
+                        <div className="resume-item">
+                            <ul>
+                                <li>
+                                    Excellent in verbal and written communication.
+                                </li>
+                                <li>
+                                    Effective and Proficient in ProblemSolving for real world Problems.
+                                </li>
+                                <li>
+                                    Adaptability to Change and Quick to learn new tools, frameworks, and methodologies to stay up to date.
+                                </li>
+                                <li>
+                                    Strong Time Management in completeing the tasks.
+                                </li>
+                                <li>
+                                    Keen observation to ensure the quality of work and error free code.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div></div>
+                    <div id="languages">
+                        <h3 className="resume-title">Languages Known </h3>
+                        <div className="resume-item">
+                            <ul>
+                                <li>
+                                    Telugu, Hindi, English
                                 </li>
                             </ul>
                         </div>

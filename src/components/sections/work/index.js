@@ -7,7 +7,7 @@ function Work(props) {
                     <div className="font-maitree">My <span className="text-blue font-maitree">Wrok</span></div>
                 </div>
                 <div className="work-body">
-                    <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                    <a href="http://github.com/premkumar0" target="_blank" rel="noopener noreferrer">
                         <div className="card">
                             <img src={process.env.PUBLIC_URL + "/img/project.png"} alt="Project-1" />
                             <div className="project-info">
@@ -16,7 +16,7 @@ function Work(props) {
                             </div>
                         </div>
                     </a>
-                    <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                    <a href="http://github.com/premkumar0" target="_blank" rel="noopener noreferrer">
                         <div className="card">
                             <img src={process.env.PUBLIC_URL + "/img/project.png"} alt="Project-2" />
                             <div className="project-info">
@@ -25,7 +25,7 @@ function Work(props) {
                             </div>
                         </div>
                     </a>
-                    <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                    <a href="http://github.com/premkumar0" target="_blank" rel="noopener noreferrer">
                         <div className="card">
                             <img src={process.env.PUBLIC_URL + "/img/project.png"} alt="Project-3" />
                             <div className="project-info">
